@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+
 import ProductCard from '../ProductCard';
 import './index.css';
 
@@ -42,17 +42,8 @@ const sampleProducts = [
     
   ];
 
+
 const ProductContainer = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % sampleProducts.length);
-    }, 3000); 
-
-    return () => clearInterval(interval);
-  }, []);
-
   return (
     <div className="product-container">
       {sampleProducts.map((product, index) => (
