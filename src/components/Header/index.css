@@ -1,0 +1,28 @@
+.nav-bar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-img{
+    height: 60px;
+    width: 70px;
+    border-radius: 8px;
+}
+.nav-items-container{
+    display: flex;
+    list-style-type: none;
+}
+.nav-items{
+    margin-right: 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.download-button{
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: 13px;
+    font-weight: 600;
+}

@@ -1,0 +1,18 @@
+.open-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.open-sub-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.open-card{
+    background-color:rgb(240, 228, 214);
+    padding:20px;
+    border-radius: 10px;
+}
+.open-card-head{
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+}

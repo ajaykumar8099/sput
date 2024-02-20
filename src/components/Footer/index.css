@@ -1,0 +1,27 @@
+.footer-bg{
+    text-align: center;
+}
+.footer-name{
+    color:rgb(201, 150, 253) ;
+    font-family: sans-serif;
+}
+.address-container{
+    display: flex;
+    justify-content: center;
+}
+.nav-img{
+    height: 50px;
+    width: 60px;
+    border-radius: 8px;
+}
+.apple-logo{
+    height: 15%;
+    width: 15%;
+    margin-right: 20px;
+}
+.address-logo{
+    color: rgb(121, 243, 223);
+}
+.mail-logo{
+    color: rgb(121, 243, 223);
+}

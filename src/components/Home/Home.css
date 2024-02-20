@@ -1,0 +1,42 @@
+.home-bg-container{
+    background-image: url("https://images.pexels.com/photos/1037995/pexels-photo-1037995.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    min-height: 90vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: start;
+    padding-left: 20px;
+    border-radius: 20px;
+    
+}
+.home-para{
+    color:#000000;
+    font-weight: 600;
+    font-size: 25px;
+}
+.home-head{
+    color: #000000;
+    font-weight: 700;
+    font-size: 50px;
+}
+.home-sub{
+    display: flex;
+    align-items: center;
+}
+.apple-container{
+    display: flex;
+    align-items: center;
+}
+.apple-logo{
+    height: 25%;
+    width: 20%;
+    margin-right: 20px;
+}
+.star-img{
+    height:15%;
+    width:20%
+}
+.review-100{
+    font-weight: 600;
+}

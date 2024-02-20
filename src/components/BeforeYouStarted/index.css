@@ -1,0 +1,29 @@
+.before-bg-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    min-height: 90vh;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.we-take-para{
+    font-family: sans-serif;
+    font-weight: normal;
+}
+.we-take-head{
+    font-family: sans-serif;
+    font-size: 30px;
+    width: 600;
+}
+.button{
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: 13px;
+    font-weight: 600;
+}

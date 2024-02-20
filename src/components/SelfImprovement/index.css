@@ -1,0 +1,19 @@
+.self-container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.self-para{
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.self-head{
+    font-family: sans-serif;
+}
+.self-card{
+    display: flex;
+    align-items: center;
+}
+.img{
+    width: 6%;
+    margin-left: 10px;
+  }

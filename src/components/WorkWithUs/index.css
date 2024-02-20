@@ -1,0 +1,81 @@
+.work-bg-container{
+    background-color: rgb(218, 216, 245);
+    padding: 20px;
+    height: 90vh;
+    border-radius: 20px;
+}
+.work-head-continer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.work-one-head{
+    font-family: sans-serif;
+}
+.work-two-head{
+    font-family: sans-serif;
+    color: rgb(139, 92, 247);
+    margin-right: 20px;
+    font-size: 35px;
+}
+.work-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.work-card-one-container{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    border-radius: 10px;
+}
+.about-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 15px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.production-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #e2d3d3;
+    padding: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.work-card-two-container{
+    padding: 15px;
+    overflow-y:scroll;
+    position: sticky;
+    width: 40%;
+}
+.sub-work-card{
+    background-color: #ffffff;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 14px;
+}
+.work-head{
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+}
+.work-para{
+    font-family: sans-serif;
+    font-weight: normal;
+}
+.work-emoji{
+    height: 80px;
+    width: 70px;
+}
+.about{
+    font-family: sans-serif;
+    font-weight: normal;
+}
+.about-para{
+    font-family: sans-serif;
+    font-weight: normal;
+}
